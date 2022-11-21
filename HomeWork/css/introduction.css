@@ -27,7 +27,6 @@ body {
 
 dd {
   display: block;
-  /* margin-inline-start: 40px; */
 }
 
 .headline {
@@ -36,6 +35,7 @@ dd {
   font-size: 3em;
   font-family: headline;
   color: #333;
+  text-shadow:2px 2px 4px #6fb1b0;
   width: 200px;
 }
 
@@ -65,13 +65,7 @@ dd {
   height: 36px;
 }
 
-.content .basicInfo-block div:hover {
-  color: #333!important;
-  background-color: #6fb1b0;
-  font-size: 18px;
-}
-
-/* 标题 */
+/* 术语定义-dt */
 .basicInfo-item.name {
   width: 120px;
   padding: 0 5px 0 12px;
@@ -80,10 +74,10 @@ dd {
   text-overflow: ellipsis;
   white-space: nowrap;
   word-wrap: normal;
-  color: #999;
+  color: #6fb1b0;
 }
 
-/* 内容 */
+/* 描述-dd */
 .basicInfo-item.value {
   zoom: 1;
   color: #333;
@@ -93,5 +87,18 @@ dd {
   word-break: break-all;
 }
 
+/* 悬停效果 */
+.basicInfo-block div:hover {
+  background-color: #6fb1b0;
+  font-size: 20px;
+}
+.basicInfo-block div:hover .basicInfo-item{
+  color: #333;
+
+}
+/* 内容长的设置成两行 */
+.basicInfo-block .special:hover {
+  height: 72px;
+}
 
 
