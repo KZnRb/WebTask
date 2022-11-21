@@ -119,6 +119,7 @@ article {
   background-position: -140px -200px;
   float: right;
   clear: both;
+  margin:40px 0px 40px 80px;
 }
 /* 矩形插图 */
 .rectangle {
@@ -137,6 +138,7 @@ article {
 .rectangle2 {
   width: 300px;
   float: right;
+  margin: 0px 0px 20px 40px;
 }
 .rectangle2 img {
   width: 100%;
