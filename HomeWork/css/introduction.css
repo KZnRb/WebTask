@@ -8,10 +8,21 @@
   font-family: headline;
   src: url(../font/headline.ttf);
 }
+/* body {
+  background: url(../img/bg3.jpg) no-repeat center center;
+  background-size: cover;           
+} */
 
+body {
+  background: url(../img/bg2.jpg) no-repeat center center;
+  /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  }
+  
 .all {
   margin: 0 auto;
-  width: 420px;
+  width: 70%;
 }
 
 dd {
@@ -20,7 +31,7 @@ dd {
 }
 
 .headline {
-  padding: 20px;
+  padding: 100px 0 40px 0;
   margin: auto;
   font-size: 3em;
   font-family: headline;
@@ -28,26 +39,41 @@ dd {
   width: 200px;
 }
 
-/* .basicInfo-item.name:before {
+.content {
+  margin-left: 100px;
+}
+
+.basicInfo-item.name:before {
     content: "";
     display: block;
-  } */
+  }
+
 .basicInfo-block {
-  width: 420px;
+  width: 440px;
   float: left;
 }
 
 .basicInfo-item {
-  line-height: 26px;
+  line-height: 36px;
   display: block;
   padding: 0;
   margin: 0;
   float: left;
 }
 
+.content div {
+  height: 36px;
+}
+
+.content .basicInfo-block div:hover {
+  color: #333!important;
+  background-color: #6fb1b0;
+  font-size: 18px;
+}
+
 /* 标题 */
 .basicInfo-item.name {
-  width: 100px;
+  width: 120px;
   padding: 0 5px 0 12px;
   font-weight: 700;
   overflow: hidden;
@@ -66,3 +92,6 @@ dd {
   position: relative;
   word-break: break-all;
 }
+
+
+
