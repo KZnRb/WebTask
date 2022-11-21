@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-size: 100%;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: relative;
+  overflow: visible;
+  height: 120%;
+  margin-bottom: 100px;
+}
+p {
+  /* background-image: url(img/star.png); */
+  text-indent: 2em;
+  margin: 1em;
+  font-size: 1em;
+  line-height: 2em;
+  font-family: "Courier New", Courier, monospace;
+}
+#img1 {
+  width: 100%;
+}
+#word {
+  position: absolute;
+  width: 12%;
+  top: 16%;
+  left: 20px;
+}
+header nav {
+  height: 100px;
+  width: 88%;
+  background-color: black;
+  position: absolute;
+  margin: auto 6%;
+  opacity: 0.5;
+  bottom: -60px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+}
+.header_ul {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+li {
+  list-style: none;
+}
+.header_ul a {
+  text-decoration: none;
+  border-left: 1px solid white;
+  color: white;
+  font-size: 2em;
+  font-family: "华文新魏";
+  text-align: center;
+  display: inline-block;
+  padding: 10px 40px;
+  margin-bottom: 40px;
+}
+.header_ul a:hover {
+  color: rgb(66, 94, 66);
+}
+.header_ul a:first-child {
+  border-left: 0px;
+}
+
+#mbody {
+  margin: auto 6%;
+}
+
+/* 正文段落内容 */
+article {
+  margin: 50px auto;
+  font-family: "Courier New", Courier, monospace;
+  /* font-weight: 400; */
+  overflow: hidden;
+}
+
+/* 小标题 */
+.heading {
+  color: rgb(66, 94, 66);
+  background-color: #fff;
+  font-family: "黑体";
+  font-size: 2em;
+}
+.heading a {
+  color: rgb(66, 94, 66);
+}
+.heading a:hover {
+    color: #808080;
+}
+.heading hr {
+  background-color: rgb(66, 94, 66);
+  height: 0.2px;
+  margin: 10px 0;
+}
+
+/* 插图 */
+/* 圆形插图 */
+.circle {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(66, 94, 66);
+  border-radius: 50%;
+  background: url(../img/site2.jpg);
+  background-size: 896px;
+  background-position: -140px -200px;
+  float: right;
+  clear: both;
+}
+/* 矩形插图 */
+.rectangle {
+  height: 340px;
+  width: 440px;
+  border: 1px solid rgb(66, 94, 66);
+  float: right;
+  position: relative;
+  text-align: center;
+  color: rgb(66, 94, 66);
+  margin: 40px 0px 40px 80px;
+}
+.rectangle div {
+  margin-top: 10px;
+}
+.rectangle2 {
+  width: 300px;
+  float: right;
+}
+.rectangle2 img {
+  width: 100%;
+}
+
+/* 最后 */
+footer {
+  height: 200px;
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  text-align: center;
+  line-height: 200px;
+}
+footer a {
+  font-family: "楷体";
+  font-size: 2em;
+  color: #5e5959;
+  text-decoration: none;
+}
+footer a:hover {
+  color: skyblue;
+}

@@ -5,161 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>榆次区</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-      }
-      body {
-        font-size: 100%;
-      }
-      header {
-        position: relative;
-        overflow: visible;
-        height: 120%;
-        margin-bottom: 100px;
-      }
-      p {
-        /* background-image: url(img/star.png); */
-        text-indent: 2em;
-        margin: 1em;
-        font-size: 1em;
-        line-height: 2em;
-        font-family: "Courier New", Courier, monospace;
-      }
-      #img1 {
-        width: 100%;
-      }
-      #word {
-        position: absolute;
-        width: 12%;
-        top: 16%;
-        left: 20px;
-      }
-      header nav {
-        height: 100px;
-        width: 88%;
-        background-color: black;
-        position: absolute;
-        margin: auto 6%;
-        opacity: 0.5;
-        bottom: -60px;
-        border-radius: 10px;
-        display: flex;
-        text-align: center;
-        line-height: 50px;
-      }
-      .header_ul {
-        padding: 20px;
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-      }
-      li {
-        list-style: none;
-      }
-      .header_ul a {
-        text-decoration: none;
-        border-left: 1px solid white;
-        color: white;
-        font-size: 2em;
-        font-family: "华文新魏";
-        text-align: center;
-        display: inline-block;
-        padding: 10px 40px;
-        margin-bottom: 40px;
-      }
-      .header_ul a:hover {
-        color: rgb(66, 94, 66);
-      }
-      .header_ul a:first-child {
-        border-left: 0px;
-      }
-
-      #mbody {
-        margin: auto 6%;
-      }
-
-      /* 正文段落内容 */
-      article {
-        margin: 50px auto;
-        font-family: "Courier New", Courier, monospace;
-        /* font-weight: 400; */
-        overflow: hidden;
-      }
-
-      /* 小标题 */
-      .heading {
-        color: rgb(66, 94, 66);
-        background-color: #fff;
-        font-family: "黑体";
-        font-size: 2em;
-      }
-      .heading hr {
-        background-color: rgb(66, 94, 66);
-        height: 0.2px;
-        margin: 10px 0;
-      }
-
-      /* 插图 */
-      /* 圆形插图 */
-      .circle {
-        width: 300px;
-        height: 300px;
-        border: 1px solid rgb(66, 94, 66);
-        border-radius: 50%;
-        background: url(img/site2.jpg);
-        background-size: 896px;
-        background-position: -140px -200px;
-        float: right;
-        clear: both;
-      }
-      /* 矩形插图 */
-      .rectangle {
-        height: 340px;
-        width: 440px;
-        border: 1px solid rgb(66, 94, 66);
-        float: right;
-        position: relative;
-        text-align: center;
-        color: rgb(66, 94, 66);
-        margin: 40px 0px 40px 80px;
-      }
-      .rectangle div {
-        margin-top: 10px;
-      }
-      .rectangle2 {
-        width: 300px;
-        float: right;
-      }
-      .rectangle2 img {
-        width: 100%;
-      }
-
-      /* 最后 */
-      footer {
-        height: 200px;
-        background: url(img/bg.jpg);
-        background-size: cover;
-        text-align: center;
-        line-height: 200px;
-      }
-      footer a {
-        font-family: "楷体";
-        font-size: 2em;
-        color: #5e5959;
-        text-decoration: none;
-      }
-      footer a:hover {
-        color: skyblue;
-      }
-    </style>
+    <link rel="stylesheet" href="../css/start.css" />
   </head>
   <body>
     <header>
-      <img id="img1" src="img/0.png" alt="" />
-      <img id="word" src="img/word.png" alt="" />
+      <img id="img1" src="../img/0.png" alt="" />
+      <img id="word" src="../img/word.png" alt="" />
       <nav>
         <ul class="header_ul">
           <a href="#introduction"><li>总体介绍</li></a>
@@ -173,7 +24,9 @@
     <div id="mbody">
       <article id="introduction">
         <div class="heading">
-          <div><b>|</b>&nbsp总体介绍</div>
+          <a href="introduction.html">
+            <div><b>|</b>&nbsp总体介绍</div>
+          </a>
           <hr />
         </div>
         <div class="circle"></div>
@@ -195,7 +48,9 @@
       </article>
       <article id="evolution">
         <div class="heading">
-          <div><b>|</b>&nbsp历史沿革</div>
+          <a href="evolution.html">
+            <div><b>|</b>&nbsp历史沿革</div>
+          </a>
           <hr />
         </div>
         <!-- <p>榆次，春秋时期称“涂水”、“魏榆”，战国时期就称“榆次”。</p>
@@ -220,7 +75,7 @@
           1954年将榆次县城关区改设榆次市。1958年，撤销榆次、寿阳2县，并入榆次市。1960年恢复寿阳县。1963年，撤销榆次市，恢复榆次县。1971年，恢复榆次市，榆次县迁驻长凝。1975年，榆次县迁驻榆次市。1983年7月28日，国务院批复同意撤销榆次县，将榆次县的行政区域并入榆次市。
         </p>
         <div class="rectangle">
-          <img src="img/history.jpg" alt="" />
+          <img src="../img/history.jpg" alt="" />
           <div>晋商骆驼群雕</div>
         </div>
         <p>
@@ -244,10 +99,12 @@
       </article>
       <article id="divisions">
         <div class="heading">
-          <div><b>|</b>&nbsp行政区划</div>
+          <a href="divisions.html">
+            <div><b>|</b>&nbsp行政区划</div>
+          </a>
           <hr />
         </div>
-        <div class="rectangle2"><img src="img/map.jpg" alt="" /></div>
+        <div class="rectangle2"><img src="../img/map.jpg" alt="" /></div>
         <h3>区划沿革</h3>
         <p>2021年4月，什贴镇整建制并入乌金山镇。</p>
         <h3>区划详情</h3>
@@ -262,10 +119,12 @@
       </article>
       <article id="honor">
         <div class="heading">
-          <div><b>|</b>&nbsp城市荣誉</div>
+          <a href="honor.html">
+            <div><b>|</b>&nbsp城市荣誉</div>
+          </a>
           <hr />
         </div>
-        <div class="rectangle2"><img src="img/honor.jpg" alt="" /></div>
+        <div class="rectangle2"><img src="../img/honor.jpg" alt="" /></div>
         <p>
           2017年12月12日，榆次区被国家民委办公厅确定为第三批“少数民族流动人口服务管理示范城市”。
         </p>
@@ -286,11 +145,11 @@
       </article>
     </div>
 
-    <footer>
+    <!-- <footer>
       <div></div>
       <a href="page2.html">
         <div>点击查看更多内容</div>
       </a>
-    </footer>
+    </footer> -->
   </body>
 </html>
