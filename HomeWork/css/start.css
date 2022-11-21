@@ -97,6 +97,10 @@ article {
 .heading a:hover {
     color: #808080;
 }
+.heading i {
+    font-family: '楷体', Courier, monospace;
+    font-size: 0.6em;
+}
 .heading hr {
   background-color: rgb(66, 94, 66);
   height: 0.2px;
