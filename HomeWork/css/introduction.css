@@ -91,6 +91,7 @@ dd {
 .basicInfo-block div:hover {
   background-color: #6fb1b0;
   font-size: 20px;
+  border-radius: 20px;
 }
 .basicInfo-block div:hover .basicInfo-item{
   color: #333;
@@ -99,6 +100,24 @@ dd {
 /* 内容长的设置成两行 */
 .basicInfo-block .special:hover {
   height: 72px;
+}
+
+/* 返回设置 */
+.all .goBack {
+  outline: none;
+  background-color: transparent;
+  color: #6fb1b0;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: headline;
+  position: absolute;
+  top: 70px;
+  left: 8%;
+}
+
+.all .goBack:hover {
+  color: #333;
+  text-shadow:2px 2px 4px #6fb1b0;
 }
 
 
