@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@font-face {
+  font-family: headline;
+  src: url(../font/headline.ttf);
+}
+
+.all {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* 标题 */
+.all h2 {
+  font-family: headline;
+  color: #498428;
+  text-shadow: 1px 1px 4px #eaef9d;
+  display: block;
+  width: 400px;
+  height: 100px;
+  margin: 40px auto;
+}
+
+/* 导航栏 */
+.all nav a {
+  text-decoration: none;
+  line-height: 50px;
+  display: inline-block;
+  font-size: 24px;
+  font-family: '隶书';
+  color: #498428;
+  margin: 10px 60px;
+}
+/* 导航栏悬停效果 */
+.all nav a:hover {
+  color: #33692b;
+  text-shadow:1px 1px 2px #498428;
+}
+
+dl {
+  margin: 40px 0;
+  display: none;
+}
+
+/* 设置图片效果 */
+img {
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+/* 文字效果 */
+dd {
+  text-align: left;
+  text-indent: 2em;
+  margin: 0 auto;
+  width: 70%;
+  line-height: 44px;
+  font-size: 22px;
+  font-family: '仿宋';
+  color: #33692b;
+}
+dd:nth-child(odd) {
+  color: #80b156;
+}
+
+dd:hover {
+  border-radius: 10px;
+  background-color: rgb(128, 177, 86, 0.2);
+  ;
+}
+
+:target {
+  display: block;
+} 
