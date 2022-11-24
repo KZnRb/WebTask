@@ -115,6 +115,7 @@ dd {
   left: 8%;
 }
 
+/* 返回键悬停 */
 .all .goBack:hover {
   color: #333;
   text-shadow:2px 2px 4px #6fb1b0;
