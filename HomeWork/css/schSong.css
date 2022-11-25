@@ -17,13 +17,14 @@
 }
 
 .all h1 {
-    width: 400px;
+    width: 912px;
     font-family: lyric;
     font-size: 50px;
     margin-bottom: 20px;
     /* margin-left: 200px; */
     color: white;
     text-shadow: 1px 1px 4px black;
+    /* text-align: center; */
 }
 
 video {
@@ -45,7 +46,7 @@ video {
 }
 
 .lyric {
-    text-align: center;
+    /* text-align: center;  */
     position: absolute;
     width: 270px;
     /* background-color: rebeccapurple; */
@@ -59,6 +60,7 @@ video {
     background: white;
     color: #424242;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 .lyric em {
@@ -71,7 +73,29 @@ video {
 .song audio {
     position: absolute;
     top: -50px;
-    left: -540px;
-    width: 220px;
+    left: -520px;
+    width: 240px;
     height: 30px;
+} 
+
+div a {
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: -60px;
+    top: -60px;
+    font-size: 30px;
+    font-family: lyric;
+    text-shadow: 1px 1px 2px black;
+    border: 10px dashed white;
+    border-radius: 20px;
+}
+
+div a:hover {
+    color: black;
+    border: 10px dashed black;
 }
