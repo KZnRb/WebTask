@@ -75,6 +75,10 @@ dd:nth-child(odd) {
   color: #80b156;
 }
 
+dd:link,dd:visited{
+  text-decoration:none;
+}
+
 dd:hover {
   border-radius: 10px;
   background-color: rgb(128, 177, 86, 0.2);
