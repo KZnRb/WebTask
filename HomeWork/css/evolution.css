@@ -65,12 +65,12 @@ li {
     padding: 20px 0 20px 30px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 1px rgb(233, 220, 198, 0.8);
-
 }
 
 .text p b {
     font-weight: 500;
     text-shadow: 1px 1px 2px #02235d;
+    letter-spacing: 30px;
 }
 
 /* 正文内容 */
