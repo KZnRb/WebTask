@@ -9,6 +9,10 @@
   src: url(../font/headline.ttf);
 }
 
+html {
+  background-color: #fff3e4;
+}
+
 .all {
   width: 80%;
   margin: 0 auto;
