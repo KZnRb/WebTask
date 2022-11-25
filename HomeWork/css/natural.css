@@ -46,6 +46,15 @@ html {
   color: #33692b;
   text-shadow:1px 1px 2px #498428;
 }
+/* 未访问和访问后 */
+.all nav a:link,.all nav a:visited{
+  text-decoration:none;
+}
+/* 鼠标点击不动时 */
+.all nav a:active {
+  color: white;
+}
+
 
 dl {
   margin: 40px 0;
@@ -73,10 +82,6 @@ dd {
 }
 dd:nth-child(odd) {
   color: #80b156;
-}
-
-dd:link,dd:visited{
-  text-decoration:none;
 }
 
 dd:hover {
