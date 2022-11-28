@@ -1,7 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* 公共类 */
+.container {
+  margin: 0 auto;
+}
+
 h1 {
   margin-left: 18%;
   font-size: 40px;
 }
+.heading {
+  width: 420px;
+}
+/* .theForm {
+  width: 600px;
+} */
 .oneline {
   line-height: 1.5;
   margin: 10px auto;

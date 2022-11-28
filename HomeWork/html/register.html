@@ -8,80 +8,77 @@
     <link rel="stylesheet" href="../css/register.css" />
   </head>
   <body>
-    <div>
+    <div class="container heading">
       <h1>用户注册</h1>
     </div>
 
-    <form id="forms">
-      <div class="oneline">
-        <label for="name">用户名：</label>
-        <input
-          type="text"
-          class="sinput"
-          id="name"
-          name="name"
-          placeholder="请输入用户名"
-          required
-        />
-      </div>
-      <div class="oneline">
-        <label for="email">Email：</label>
-        <input
-          type="email"
-          class="sinput"
-          id="email"
-          name="email"
-          placeholder="请输入邮箱"
-          required
-        />
-      </div>
+    <div class="container theForm">
+      <form id="forms">
+        <div class="oneline">
+          <label for="name">用户名：</label>
+          <input
+            type="text"
+            class="sinput"
+            id="name"
+            name="name"
+            placeholder="请输入用户名"
+            required
+          />
+        </div>
+        <div class="oneline">
+          <label for="email">Email：</label>
+          <input
+            type="email"
+            class="sinput"
+            id="email"
+            name="email"
+            placeholder="请输入邮箱"
+            required
+          />
+        </div>
 
-      <div class="oneline">
-        <label for="UserNanme">手机号：</label>
-        <input
-          name="num"
-          class="sinput"
-          type="text"
-          id="UserNanme"
-          placeholder="请输入手机号码"
-          pattern="^1[0-9]{10}$"
-          oninput="this.setCustomValidity('')"
-          oninvalid="this.setCustomValidity('请输入正确手机号码！')"
-        />
-      </div>
-      <div class="oneline">
-        <label for="Password">密码：</label>
-        <input
-          name="password"
-          class="sinput"
-          type="password"
-          id="Password"
-          required
-          placeholder="6~20位"
-          pattern="^[a-zA-Z0-9]\w{5,19}$"
-          oninput="this.setCustomValidity('')"
-          oninvalid="this.setCustomValidity('请输入正确密码！')"
-        />
-      </div>
-      <!-- <div class="oneline">
-        <label for="rePassword">确认密码：</label>
-        <input
-          class="sinput"
-          type="password"
-          id="rePassword"
-          required
-          placeholder="确认密码"
-          onchange="checkpassword()"
-        />
-      </div> -->
+        <div class="oneline">
+          <label for="UserNanme">手机号：</label>
+          <input
+            name="num"
+            class="sinput"
+            type="text"
+            id="UserNanme"
+            placeholder="请输入手机号码"
+            pattern="^1[0-9]{10}$"
+          />
+        </div>
+        <div class="oneline">
+          <label for="Password">密码：</label>
+          <input
+            name="password"
+            class="sinput"
+            type="password"
+            id="Password"
+            required
+            placeholder="6~20位"
+            pattern="^[a-zA-Z0-9]\w{5,19}$"
+          />
+        </div>
+        <div class="oneline">
+          <label for="rePassword">确认密码：</label>
+          <input
+            class="sinput"
+            type="password"
+            id="rePassword"
+            required
+            placeholder="确认密码"
+          />
+        </div>
 
-      <div class="oneline">
-        <input
-          type="submit"
-          value="提&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp交"
-          id="thesubmit"
-        />
-      </div>
-    </form>
+        <div class="oneline">
+          <input
+            type="submit"
+            value="提&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp交"
+            id="thesubmit"
+          />
+        </div>
+      </form>
+    </div>
   </body>
 </html>
