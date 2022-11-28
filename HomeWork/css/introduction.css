@@ -20,7 +20,7 @@ body {
   background-size: 100% 100%;
   }
   
-.all {
+.container {
   margin: 0 auto;
   width: 70%;
 }
@@ -103,7 +103,7 @@ dd {
 }
 
 /* 返回设置 */
-.all .goBack {
+.container .goBack {
   outline: none;
   background-color: transparent;
   color: #6fb1b0;
@@ -116,7 +116,7 @@ dd {
 }
 
 /* 返回键悬停 */
-.all .goBack:hover {
+.container .goBack:hover {
   color: #333;
   text-shadow:2px 2px 4px #6fb1b0;
 }
