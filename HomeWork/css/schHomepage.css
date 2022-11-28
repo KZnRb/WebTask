@@ -237,3 +237,12 @@ p {
   margin: 0 4px;
 }
 
+footer {
+  height: 60px;
+  background-color: #5b0000;
+  line-height: 60px;
+  text-align: center;
+  font-size: 10px;
+  color: #feeeef;
+  margin-top: 100px;
+}
