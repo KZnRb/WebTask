@@ -22,7 +22,6 @@ section {
 }
 
 /* 背景颜色 */
-
 section .color {
     /* 绝对定位 */
     position: absolute;
@@ -60,7 +59,6 @@ section .color:nth-child(3) {
 }
 
 /* 背景圆样式 */
-
 .box .circle {
     position: absolute;
     background: rgba(255, 255, 255, 0.1);
@@ -133,7 +131,6 @@ section .color:nth-child(3) {
 }
 
 /* 登录框样式 */
-
 .container {
     position: relative;
     width: 400px;
@@ -160,6 +157,7 @@ section .color:nth-child(3) {
 
 /* 登录标题样式 */
 
+
 .form h2 {
     position: relative;
     color: #fff;
@@ -168,6 +166,7 @@ section .color:nth-child(3) {
     letter-spacing: 5px;
     margin-bottom: 30px;
     cursor: pointer;
+    /* text-align: center; */
 }
 
 /* 登录标题的下划线样式 */
@@ -193,7 +192,6 @@ section .color:nth-child(3) {
 }
 
 /* 输入框样式 */
-
 .form .inputBox input {
     width: 100%;
     padding: 10px 20px;
