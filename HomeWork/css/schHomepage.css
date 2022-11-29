@@ -86,6 +86,10 @@ nav {
 .navbar li a:hover {
   border-bottom: 2px solid #fdfdfd;
 }
+.navbar li:first-child a{
+  text-shadow: 1px 1px 4px black;
+  color: white;
+}
 /* 页面头部分结束 */
 /* 搜索框部分 */
 .search {
@@ -133,6 +137,10 @@ nav {
 .personal .users {
   background: #740807 url(../img/icon.png) center center no-repeat;
   background-position: -134px -564px;
+}
+.personal a:hover {
+  text-shadow: 1px 1px 4px black;
+  color: white;
 }
 
 /* slideshow */
