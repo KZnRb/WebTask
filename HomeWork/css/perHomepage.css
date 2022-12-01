@@ -1,18 +1,122 @@
-.C3{border-top:40px  rgb(101,147,74) solid;/*上边框宽度等于表格第一行行高*/ 
-    
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: zm;
+    src: url(../font/SOURCECODEPRO-BOLD.TTF);
+}
+
+body {
+    background-color: #f7f8fa;
+}
+
+a {
+    text-decoration: none;
+}
+/* 资料部分 */
+.data {
+    width: 300px;
+    position: absolute;
+    left: 70px;
+    margin-top: 30px;
+}
+.data img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.data .name {
+    color: #6a727b;
+    font-size: 20px;
+    text-align: center;
+}
+.data button {
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #f0f2f4;
+    margin-top: 16px;
+}
+.data button a {
+    color: #6a727b;
+}
+.data button:hover a {
+    color: white;
+}
+.data button:hover {
+    background-color: #d8dee4;
+}
+
+.data .followers {
+    margin-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #d8dee4;
+}
+.data dt {
+    padding-top: 20px;
+    height: 30px;
+    border-top: 1px solid #d8dee4;
+    color: #6a727b;
+}
+.data dd {
+    height: 40px;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 课程表部分 */
+.timetable {
+    position: absolute;
+    left: 440px;
+    top: 100px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.04),0px 6px 16px rgba(0,0,0,.12);
+    border-radius: 10px;
+    padding: 30px;
+}
+.timSub {
+    border-top: 70px #e3e7ea solid;/*上边框宽度等于表格第一行行高*/   
     width:0px;/*让容器宽度为0*/ 
     height:0px;/*让容器高度为0*/ 
-    border-left:80px rgb(160,191,124) solid;/*左边框宽度等于表格第一行第一格宽度*/ 
-    position:relative;/*让里面的两个子容器绝对定位*/ }
-    b{font-style:normal;display:block;position:absolute;top:-
-    
-    40px;left:-40px;width:35px;} 
-    em{font-style:normal;display:block;position:absolute;top:-
-    
-    25px;left:-70px;width:55x;} 
-    .C2{
-    background-color:rgb(160,191,124)
-    }
-    .C1{
-    background-color:rgb(101,147,74);
-    }
+    border-left: 140px#f0f2f4 solid;/*左边框宽度等于表格第一行第一格宽度*/ 
+    position: relative;/*让里面的两个子容器绝对定位*/ 
+}
+.timSub b {
+    font-style:normal;
+    display:block;
+    position:absolute;
+    font-size: 20px;
+} 
+.timSub b:first-child {
+    top:-60px;
+    left:-50px;
+}
+.timSub b:last-child {
+    top:-40px;
+    left:-120px;
+} 
+.subject:nth-child(2n) {
+    background-color: #f0f2f4;
+}
+.subject:nth-child(2n + 1) {
+    background-color: #e3e7ea;
+}
+.describe {
+    background-color:#e3e7ea;
+}
+.timetable th {
+    width: 100px;
+}
+.timetable tr {
+    height: 50px;
+    text-align: center;
+}
+
+.timetable .headline {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "黑体";
+}
