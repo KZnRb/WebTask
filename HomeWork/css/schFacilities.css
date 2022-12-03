@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+html {
+    background-color: #f7f8fa;
+}
+
 /* 标题 */
 h1 {
     text-align: center;
@@ -37,6 +41,10 @@ h1 {
     border-radius: 10px 10px 0px 0;
     width: 400px;
     height: 266px;
+}
+
+.show:hover h4 {
+    font-size: 20px;
 }
 
 /* 返回 */
