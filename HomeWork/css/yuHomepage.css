@@ -3,18 +3,22 @@
   padding: 0;
   border: 0;
 }
+
 body {
   font-size: 100%;
 }
+
 a {
   text-decoration: none;
 }
+
 header {
   position: relative;
   overflow: visible;
   height: 120%;
   margin-bottom: 100px;
 }
+
 p {
   /* background-image: url(img/star.png); */
   text-indent: 2em;
@@ -23,15 +27,18 @@ p {
   line-height: 2em;
   font-family: "Courier New", Courier, monospace;
 }
+
 #img1 {
   width: 100%;
 }
+
 #word {
   position: absolute;
   width: 12%;
   top: 16%;
   left: 20px;
 }
+
 header nav {
   height: 100px;
   width: 88%;
@@ -45,15 +52,18 @@ header nav {
   text-align: center;
   line-height: 50px;
 }
+
 .header_ul {
   padding: 20px;
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
+
 li {
   list-style: none;
 }
+
 .header_ul a {
   text-decoration: none;
   border-left: 1px solid white;
@@ -65,9 +75,11 @@ li {
   padding: 10px 40px;
   margin-bottom: 40px;
 }
+
 .header_ul a:hover {
   color: rgb(66, 94, 66);
 }
+
 .header_ul a:first-child {
   border-left: 0px;
 }
@@ -91,16 +103,20 @@ article {
   font-family: "黑体";
   font-size: 2em;
 }
+
 .heading a {
   color: rgb(66, 94, 66);
 }
+
 .heading a:hover {
-    color: #808080;
+  color: #808080;
 }
+
 .heading i {
-    font-family: '楷体', Courier, monospace;
-    font-size: 0.6em;
+  font-family: '楷体', Courier, monospace;
+  font-size: 0.6em;
 }
+
 .heading hr {
   background-color: rgb(66, 94, 66);
   height: 0.2px;
@@ -119,8 +135,9 @@ article {
   background-position: -140px -200px;
   float: right;
   clear: both;
-  margin:40px 0px 40px 80px;
+  margin: 40px 0px 40px 80px;
 }
+
 /* 矩形插图 */
 .rectangle {
   height: 340px;
@@ -132,14 +149,17 @@ article {
   color: rgb(66, 94, 66);
   margin: 40px 0px 40px 80px;
 }
+
 .rectangle div {
   margin-top: 10px;
 }
+
 .rectangle2 {
   width: 300px;
   float: right;
   margin: 0px 0px 20px 40px;
 }
+
 .rectangle2 img {
   width: 100%;
 }
@@ -152,12 +172,14 @@ footer {
   text-align: center;
   line-height: 200px;
 }
+
 footer a {
   font-family: "楷体";
   font-size: 2em;
   color: #5e5959;
   text-decoration: none;
 }
+
 footer a:hover {
   color: skyblue;
 }

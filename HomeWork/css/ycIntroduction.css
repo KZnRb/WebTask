@@ -8,6 +8,7 @@
   font-family: headline;
   src: url(../font/headline.ttf);
 }
+
 /* body {
   background: url(../img/bg3.jpg) no-repeat center center;
   background-size: cover;           
@@ -18,8 +19,8 @@ body {
   /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
   background-attachment: fixed;
   background-size: 100% 100%;
-  }
-  
+}
+
 .container {
   margin: 0 auto;
   width: 70%;
@@ -35,7 +36,7 @@ dd {
   font-size: 3em;
   font-family: headline;
   color: #333;
-  text-shadow:2px 2px 4px #6fb1b0;
+  text-shadow: 2px 2px 4px #6fb1b0;
   width: 200px;
 }
 
@@ -44,9 +45,9 @@ dd {
 }
 
 .basicInfo-item.name:before {
-    content: "";
-    display: block;
-  }
+  content: "";
+  display: block;
+}
 
 .basicInfo-block {
   width: 440px;
@@ -93,10 +94,12 @@ dd {
   font-size: 20px;
   border-radius: 20px;
 }
-.basicInfo-block div:hover .basicInfo-item{
+
+.basicInfo-block div:hover .basicInfo-item {
   color: #333;
 
 }
+
 /* 内容长的设置成两行 */
 .basicInfo-block .special:hover {
   height: 72px;
@@ -118,7 +121,5 @@ dd {
 /* 返回键悬停 */
 .container .goBack:hover {
   color: #333;
-  text-shadow:2px 2px 4px #6fb1b0;
+  text-shadow: 2px 2px 4px #6fb1b0;
 }
-
-

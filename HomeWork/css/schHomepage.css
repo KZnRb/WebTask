@@ -4,46 +4,58 @@
   padding: 0;
   border: 0;
 }
+
 @font-face {
   font-family: yy;
   src: url(../font/ShangShouYueYuanTi.ttf);
 }
+
 ul {
   list-style: none;
 }
+
 img {
   vertical-align: top;
 }
+
 input {
   outline: none;
 }
+
 .clearfix:before,
 .clearfix::after {
   content: "";
   display: table;
 }
+
 .clearfix:after {
   clear: both;
 }
+
 .clearfix {
   *zoom: 1;
 }
+
 a {
   color: #d20f0d;
   text-decoration: none;
 }
+
 input {
   border: 0;
   box-sizing: border-box;
 }
+
 .container {
   /* 公共类 */
   width: 82%;
   margin: 0 auto;
 }
+
 body {
   background-color: #f3f5f7;
 }
+
 /* css初始化结束 */
 
 /* 页面头部分 */
@@ -52,19 +64,23 @@ header {
   overflow: hidden;
   background-color: #740807;
 }
+
 header a {
   color: #fdd6d7;
   font-size: 18px;
   font-family: '楷体';
 }
+
 nav {
   width: 1366px;
   height: 42px;
   margin: 26px auto 0;
 }
+
 .logo {
   float: left;
 }
+
 .navbar {
   float: left;
   height: 42px;
@@ -72,9 +88,11 @@ nav {
   /* 行高会继承 */
   margin-left: 40px;
 }
+
 .navbar li {
   float: left;
 }
+
 .navbar li a {
   padding: 0 20px;
   display: block;
@@ -83,13 +101,16 @@ nav {
   font-family: yy;
   letter-spacing: 5px;
 }
+
 .navbar li a:hover {
   border-bottom: 2px solid #fdfdfd;
 }
-.navbar li:first-child a{
+
+.navbar li:first-child a {
   text-shadow: 1px 1px 4px black;
   color: white;
 }
+
 /* 页面头部分结束 */
 /* 搜索框部分 */
 .search {
@@ -98,12 +119,14 @@ nav {
   border: 1px solid #fdd6d7;
   float: right;
 }
+
 .search input[type="text"] {
   width: 360px;
   height: 38px;
   padding-left: 20px;
   float: left;
 }
+
 .search input[type="submit"] {
   width: 50px;
   height: 38px;
@@ -120,6 +143,7 @@ nav {
   line-height: 42px;
   margin: 0 15px 0 30px;
 }
+
 .personal span {
   display: inline-block;
   height: 42px;
@@ -127,17 +151,21 @@ nav {
   margin: 0 8px;
   vertical-align: middle;
 }
+
 .personal a:last-child {
   margin-left: 20px;
 }
+
 .personal .homePage {
   background: #740807 url(../img/icon.png) center center no-repeat;
   background-position: -134px -174px;
 }
+
 .personal .users {
   background: #740807 url(../img/icon.png) center center no-repeat;
   background-position: -134px -564px;
 }
+
 .personal a:hover {
   text-shadow: 1px 1px 4px black;
   color: white;
@@ -161,6 +189,7 @@ nav {
   left: 50%;
   margin-left: -90px;
 }
+
 .circle li {
   float: left;
   width: 12px;
@@ -172,6 +201,7 @@ nav {
   cursor: pointer;
   /* 鼠标变成小手 */
 }
+
 .circle .current {
   width: 19px;
   border-radius: 5px;
@@ -186,16 +216,20 @@ nav {
   margin-top: 8px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
+
 .navigation a {
   padding: 0 30px;
   border-right: 1px solid #ccc;
 }
+
 .navigation a:hover {
   color: #740807;
 }
+
 .navigation a:first-child {
   color: #740807;
 }
+
 .navigation a:last-child {
   color: #740807;
   border: 0;
@@ -215,18 +249,22 @@ nav {
   font-family: "黑体";
   font-size: 20px;
 }
+
 .heading b {
   margin-right: 12px;
 }
+
 .heading hr {
   box-shadow: 1px 1px 2px #feeeef, -1px -1px 2px #740807;
   height: 4px;
   margin: 10px 0;
 }
+
 /* 内容间距 */
 article {
   margin-top: 70px;
 }
+
 /* 段落 */
 p {
   text-indent: 2em;
@@ -235,10 +273,12 @@ p {
   line-height: 2em;
   font-family: "Courier New", Courier, monospace;
 }
+
 /* 位置 */
 #position img {
-    width: 100%;
+  width: 100%;
 }
+
 #position a:hover {
   color: #740807;
   font-size: 18px;

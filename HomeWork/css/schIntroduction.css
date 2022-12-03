@@ -3,9 +3,11 @@
     padding: 0;
     border: 0;
 }
+
 a {
     text-decoration: none;
 }
+
 @font-face {
     font-family: headline;
     src: url(../font/headline.ttf);
@@ -22,24 +24,28 @@ h1 {
 .container {
     width: 76%;
     margin: 0 auto;
-    box-shadow: 0px 1px 3px rgba(0,0,0,.04),0px 6px 16px rgba(0,0,0,.12);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .04), 0px 6px 16px rgba(0, 0, 0, .12);
     padding: 50px 80px;
     margin-top: 20px;
     border-radius: 20px;
 }
+
 /* 内容 */
 article {
     margin: 40px 0;
 }
+
 /* 内容小标题 */
 h2 {
     border-top: 1px solid #d8dee4;
-    padding: 40px 0 20px 0;  
+    padding: 40px 0 20px 0;
 }
+
 .target h2 {
     border-top: 0;
     margin-top: -60px;
 }
+
 /* 段落 */
 article p {
     text-indent: 2em;
@@ -47,25 +53,29 @@ article p {
     line-height: 40px;
     letter-spacing: 1px;
 }
+
 /* 图片设置 */
 .spirit img {
     width: 60%;
     float: right;
     margin: 30px 0 30px 40px;
     border-radius: 20px;
-    box-shadow: 0px 1px 3px rgba(0,0,0,.04),0px 6px 16px rgba(0,0,0,.12);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .04), 0px 6px 16px rgba(0, 0, 0, .12);
 }
+
 .culture img {
     width: 50%;
     border-radius: 50%;
     float: right;
     margin: -20px 0 30px 40px;
-    box-shadow: 0px 1px 3px rgba(0,0,0,.04),0px 6px 16px rgba(0,0,0,.12);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .04), 0px 6px 16px rgba(0, 0, 0, .12);
 }
+
 /* 最后留空间 */
 footer {
     height: 100px;
 }
+
 /* 返回 */
 .return {
     position: absolute;
@@ -73,6 +83,7 @@ footer {
     left: 20px;
     font-size: 30px;
 }
+
 .return:hover {
     font-size: 34px;
 }

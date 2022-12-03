@@ -41,15 +41,18 @@ html {
   color: #498428;
   margin: 10px 60px;
 }
+
 /* 导航栏悬停效果 */
 .all nav a:hover {
   color: #33692b;
-  text-shadow:1px 1px 2px #498428;
+  text-shadow: 1px 1px 2px #498428;
 }
+
 /* 未访问和访问后 */
-.all nav a:link,.all nav a:visited{
-  text-decoration:none;
+.all nav a:link, .all nav a:visited {
+  text-decoration: none;
 }
+
 /* 鼠标点击不动时 */
 .all nav a:active {
   color: white;
@@ -80,6 +83,7 @@ dd {
   font-family: '仿宋';
   color: #33692b;
 }
+
 dd:nth-child(odd) {
   color: #80b156;
 }
@@ -92,4 +96,4 @@ dd:hover {
 
 :target {
   display: block;
-} 
+}

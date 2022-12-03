@@ -16,6 +16,7 @@ body {
 a {
     text-decoration: none;
 }
+
 /* 资料部分 */
 .data {
     width: 300px;
@@ -23,16 +24,19 @@ a {
     left: 70px;
     margin-top: 30px;
 }
+
 .data img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
 }
+
 .data .name {
     color: #6a727b;
     font-size: 20px;
     text-align: center;
 }
+
 .data button {
     width: 300px;
     height: 30px;
@@ -41,12 +45,15 @@ a {
     background: #f0f2f4;
     margin-top: 16px;
 }
+
 .data button a {
     color: #6a727b;
 }
+
 .data button:hover a {
     color: white;
 }
+
 .data button:hover {
     background-color: #d8dee4;
 }
@@ -56,12 +63,14 @@ a {
     padding-bottom: 40px;
     border-bottom: 1px solid #d8dee4;
 }
+
 .data dt {
     padding-top: 20px;
     height: 30px;
     border-top: 1px solid #d8dee4;
     color: #6a727b;
 }
+
 .data dd {
     height: 40px;
     margin-left: 30px;
@@ -73,10 +82,11 @@ a {
     position: absolute;
     left: 420px;
     top: 100px;
-    box-shadow: 0px 1px 3px rgba(0,0,0,.04),0px 6px 16px rgba(0,0,0,.12);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .04), 0px 6px 16px rgba(0, 0, 0, .12);
     border-radius: 10px;
     padding: 40px 50px;
 }
+
 .timSub {
     border-top: 70px #e3e7ea solid;
     width: 0px;
@@ -84,32 +94,40 @@ a {
     border-left: 140px#f0f2f4 solid;
     position: relative;
 }
+
 .timSub b {
-    font-style:normal;
-    display:block;
-    position:absolute;
+    font-style: normal;
+    display: block;
+    position: absolute;
     font-size: 20px;
-} 
-.timSub b:first-child {
-    top:-60px;
-    left:-50px;
 }
+
+.timSub b:first-child {
+    top: -60px;
+    left: -50px;
+}
+
 .timSub b:last-child {
-    top:-40px;
-    left:-120px;
-} 
+    top: -40px;
+    left: -120px;
+}
+
 .subject:nth-child(2n + 1) {
     background-color: #f0f2f4;
 }
+
 .subject:nth-child(2n) {
     background-color: #e3e7ea;
 }
+
 .describe {
-    background-color:#e3e7ea;
+    background-color: #e3e7ea;
 }
+
 .timetable th {
     width: 100px;
 }
+
 .timetable tr {
     height: 50px;
     text-align: center;
@@ -126,7 +144,7 @@ a {
     position: absolute;
     right: 50px;
     top: 30px;
-    box-shadow: 0px 1px 3px rgba(0,0,0,.04),0px 6px 16px rgba(0,0,0,.12);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .04), 0px 6px 16px rgba(0, 0, 0, .12);
     width: 80px;
     height: 40px;
     font-size: 20px;
@@ -135,6 +153,7 @@ a {
     font-family: "黑体";
     background-color: #f7f8fa;
 }
+
 .return:hover {
     background-color: #e3e7ea;
     color: white;

@@ -67,7 +67,8 @@ video {
     color: black;
     font-size: 32px;
     line-height: 30px;
-    text-decoration:1px 1px 2px white; ;
+    text-decoration: 1px 1px 2px white;
+    ;
 }
 
 .song audio {
@@ -76,7 +77,7 @@ video {
     left: -520px;
     width: 240px;
     height: 30px;
-} 
+}
 
 div a {
     width: 90px;
