@@ -10,6 +10,10 @@
   src: url(../font/ShangShouYueYuanTi.ttf);
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -258,6 +262,14 @@ nav {
   box-shadow: 1px 1px 2px #feeeef, -1px -1px 2px #740807;
   height: 4px;
   margin: 10px 0;
+}
+
+.heading a {
+  color: #740807;
+}
+
+.heading a:hover {
+  font-size: 34px;
 }
 
 /* 内容间距 */
