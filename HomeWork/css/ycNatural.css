@@ -40,6 +40,7 @@ html {
   font-family: '隶书';
   color: #498428;
   margin: 10px 60px;
+  transition: all 0.5s;
 }
 
 /* 导航栏悬停效果 */
@@ -82,6 +83,7 @@ dd {
   font-size: 22px;
   font-family: '仿宋';
   color: #33692b;
+  transition: all 0.5s;
 }
 
 dd:nth-child(odd) {

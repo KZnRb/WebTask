@@ -30,6 +30,10 @@ h1 {
 }
 
 /* 小标题 */
+.show {
+    transition: all 0.5s;
+}
+
 .show h4 {
     height: 50px;
     text-align: center;
@@ -44,7 +48,8 @@ h1 {
 }
 
 .show:hover {
-    transform: translate(-6px, -6px);
+    box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.2);
+    transform: translate(0px, -10px);
 }
 
 .show:hover h4 {
@@ -57,6 +62,7 @@ h1 {
     top: 10px;
     left: 20px;
     font-size: 30px;
+    transition: all 0.5s;
 }
 
 .return:hover {

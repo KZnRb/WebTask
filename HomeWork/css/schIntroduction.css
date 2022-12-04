@@ -82,6 +82,7 @@ footer {
     top: 10px;
     left: 20px;
     font-size: 30px;
+    transition: all 0.5s;
 }
 
 .return:hover {

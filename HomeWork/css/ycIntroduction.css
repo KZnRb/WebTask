@@ -89,6 +89,10 @@ dd {
 }
 
 /* 悬停效果 */
+.basicInfo-block div {
+  transition: all 0.5s;
+}
+
 .basicInfo-block div:hover {
   background-color: #6fb1b0;
   font-size: 20px;
@@ -119,6 +123,10 @@ dd {
 }
 
 /* 返回键悬停 */
+.goBack {
+  transition: all 0.5s;
+}
+
 .container .goBack:hover {
   color: #333;
   text-shadow: 2px 2px 4px #6fb1b0;

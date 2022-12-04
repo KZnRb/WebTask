@@ -44,10 +44,12 @@ a {
     font-size: 16px;
     background: #f0f2f4;
     margin-top: 16px;
+    transition: all 0.5s;
 }
 
 .data button a {
     color: #6a727b;
+    transition: all 0.5s;
 }
 
 .data button:hover a {
@@ -152,6 +154,7 @@ a {
     color: #6a727b;
     font-family: "黑体";
     background-color: #f7f8fa;
+    transition: all 0.5s;
 }
 
 .return:hover {
