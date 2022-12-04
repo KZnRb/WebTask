@@ -306,3 +306,12 @@ footer {
   color: #feeeef;
   margin-top: 100px;
 }
+
+/* 标题目标跳转 */
+div:target h2:before {
+  content: "►  ";
+}
+
+div:target h2 {
+  transform: translateX(-40px);
+}

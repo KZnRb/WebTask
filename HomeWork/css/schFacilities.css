@@ -43,6 +43,10 @@ h1 {
     height: 266px;
 }
 
+.show:hover {
+    transform: translate(-6px, -6px);
+}
+
 .show:hover h4 {
     font-size: 20px;
 }
