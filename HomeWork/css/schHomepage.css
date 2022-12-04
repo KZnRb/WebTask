@@ -149,7 +149,6 @@ nav {
   height: 42px;
   line-height: 42px;
   margin: 0 15px 0 30px;
-  transition: all 0.5s;
 }
 
 .personal span {
@@ -158,6 +157,11 @@ nav {
   width: 42px;
   margin: 0 8px;
   vertical-align: middle;
+}
+
+.personal a {
+  transition: all 0.5s;
+
 }
 
 .personal a:last-child {
@@ -223,12 +227,13 @@ nav {
   background-color: #fff;
   margin-top: 8px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  transition: all 0.5s;
+  overflow: hidden;
 }
 
 .navigation a {
   padding: 0 30px;
   border-right: 1px solid #ccc;
+  transition: all 0.5s;
 }
 
 .navigation a:hover {
