@@ -186,12 +186,3 @@ footer a {
 footer a:hover {
   color: skyblue;
 }
-
-/* 标题目标跳转 */
-div:target .:before {
-  content: "►  ";
-}
-
-div:target h2 {
-  transform: translateX(-40px);
-}
