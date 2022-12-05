@@ -42,9 +42,14 @@ article {
     transition: all 0.5s;
 }
 
+article:nth-child(2n+1) {
+    background: rgb(227, 231, 234, 0.2);
+}
+
 article:hover {
     box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.2);
     transform: translate(0px, -10px);
+    background: rgb(227, 231, 234, 0.4);
 }
 
 article h2 {
