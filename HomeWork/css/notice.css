@@ -142,12 +142,15 @@ a {
 /* 返回 */
 .return {
     position: absolute;
-    bottom: 40px;
-    left: 50px;
-    font-size: 30px;
+    bottom: -10px;
+    left: 10px;
     transition: all 0.5s;
 }
 
-.return:hover {
-    font-size: 34px;
+.return img {
+    width: 200px;
+}
+
+.return:hover img {
+    width: 210px;
 }
