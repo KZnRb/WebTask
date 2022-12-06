@@ -263,6 +263,7 @@ nav {
   font-family: "黑体";
   font-size: 20px;
   transition: all 0.5s;
+  position: relative;
 }
 
 .heading b {
@@ -279,8 +280,17 @@ nav {
   color: #740807;
 }
 
-.heading a:hover {
-  font-size: 34px;
+.heading em {
+  font-size: 16px;
+  font-weight: 100;
+  position: absolute;
+  right: 10px;
+  top: 16px;
+}
+
+.heading a:hover em {
+  font-size: 18px;
+  color: #5b0000;
 }
 
 /* 内容间距 */
@@ -297,6 +307,12 @@ p {
   font-family: "Courier New", Courier, monospace;
 }
 
+p a:hover {
+  color: #740807;
+  font-size: 18px;
+  margin: 0 4px;
+}
+
 /* 位置 */
 #position img {
   width: 100%;
@@ -304,12 +320,6 @@ p {
 
 #position a {
   transition: all 0.5s;
-}
-
-#position a:hover {
-  color: #740807;
-  font-size: 18px;
-  margin: 0 4px;
 }
 
 footer {
