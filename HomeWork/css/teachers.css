@@ -6,8 +6,15 @@
 
 h1 {
     text-align: center;
-    margin: 40px;
-    letter-spacing: 40px;
+    margin-top: 40px;
+    letter-spacing: 16px;
+}
+
+h4 {
+    text-align: center;
+    letter-spacing: 2px;
+    color: #949494;
+    margin: 2px 0 28px -14px;
 }
 
 .view {
