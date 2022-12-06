@@ -12,6 +12,70 @@ html {
     background-color: #f7f8fa;
 }
 
+/* 特色管理 */
+.management {
+    margin: 60px auto;
+    width: 1200px;
+}
+
+.management h2, h4 {
+    text-align: center;
+}
+
+.management h2 {
+    color: #333333;
+    margin-top: 40px;
+}
+
+.management h4 {
+    color: #999999;
+    margin: 10px 0 50px 0;
+}
+
+/* 表格 */
+.management table {
+    color: #999999;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.management tr {
+    height: 260px;
+}
+
+.management td {
+    width: 700px;
+}
+
+.management td:hover.mag1 {
+    background-color: rgb(255, 192, 203, 0.2);
+}
+
+.management td:hover.mag2 {
+    background-color: rgb(70, 130, 180, 0.2);
+}
+
+.management td:hover.mag3 {
+    background-color: rgb(197, 237, 197, 0.6);
+}
+
+.management td:hover.mag4 {
+    background-color: rgb(221, 160, 221, 0.2);
+}
+
+.management tr:first-child {
+    border-bottom: 2px solid #e4e4e4;
+}
+
+.management td:first-child {
+    border-right: 2px solid #e4e4e4;
+}
+
+.management h3 {
+    margin: 40px 0 20px 0;
+    color: #333333;
+}
+
 /* 标题 */
 h1 {
     text-align: center;
