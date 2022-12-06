@@ -289,8 +289,8 @@ nav {
 }
 
 .heading a:hover em {
-  font-size: 18px;
-  color: #5b0000;
+  /* font-size: 18px; */
+  color: #d20f0d;
 }
 
 /* 内容间距 */
