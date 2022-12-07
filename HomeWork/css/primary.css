@@ -48,19 +48,24 @@ html {
 }
 
 .management td:hover.mag1 {
-    background-color: rgb(255, 192, 203, 0.2);
+    /* background-color: rgb(255, 192, 203, 0.2); */
+    background-image: linear-gradient(145deg, rgb(224, 196, 253, 0.4), rgb(143, 198, 253, 0.4));
+
 }
 
 .management td:hover.mag2 {
-    background-color: rgb(70, 130, 180, 0.2);
+    /* background-color: rgb(70, 130, 180, 0.2); */
+    background-image: linear-gradient(45deg, rgb(143, 198, 253, 0.4), rgb(224, 196, 253, 0.4));
 }
 
 .management td:hover.mag3 {
-    background-color: rgb(197, 237, 197, 0.6);
+    /* background-color: rgb(197, 237, 197, 0.6); */
+    background-image: linear-gradient(45deg, rgb(224, 196, 253, 0.4), rgb(143, 198, 253, 0.4));
 }
 
 .management td:hover.mag4 {
-    background-color: rgb(221, 160, 221, 0.2);
+    /* background-color: rgb(221, 160, 221, 0.2); */
+    background-image: linear-gradient(145deg, rgb(143, 198, 253, 0.4), rgb(224, 196, 253, 0.4));
 }
 
 .management tr:first-child {
