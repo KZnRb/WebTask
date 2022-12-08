@@ -10,7 +10,9 @@ a {
 
 
 html {
-    background-color: #f7f8fa;
+    /* background-color: #f7f8fa; */
+    background-attachment: fixed;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 /* 标题 */
@@ -36,11 +38,12 @@ article {
     padding: 40px 50px;
     border-radius: 40px;
     transition: all 0.5s;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
-article:nth-child(2n+1) {
+/* article:nth-child(2n+1) {
     background: rgb(227, 231, 234, 0.2);
-}
+} */
 
 article:hover {
     box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.4);
@@ -61,11 +64,13 @@ article p {
 .return {
     position: absolute;
     top: 10px;
-    left: 20px;
-    font-size: 30px;
-    transition: all 0.5s;
+    left: 24px;
 }
 
-.return:hover {
-    font-size: 34px;
+.return img {
+    width: 100px;
+}
+
+.return img:hover {
+    width: 110px;
 }
