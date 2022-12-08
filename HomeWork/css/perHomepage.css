@@ -25,10 +25,123 @@ a {
     margin-top: 30px;
 }
 
-.data img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+/* 头像 */
+.head {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+    padding: 20px 20px;
+    counter-reset: #e3e7ea;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.head:hover {
+    background: #e3e7ea;
+    color: #fff;
+    box-shadow: 0 0 5px #e3e7ea, 0 0 25px #e3e7ea, 0 0 50px #e3e7ea,
+        0 0 200px #e3e7ea;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.head img {
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.head span {
+    position: absolute;
+    display: block;
+}
+
+.head span:first-child {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, transparent, #e3e7ea);
+    animation: animate1 1s linear infinite;
+}
+
+.head span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #e3e7ea);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+.head span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(270deg, transparent, #e3e7ea);
+    animation: animate3 1s linear infinite;
+
+    animation-delay: 0.5s;
+}
+
+.head span:nth-child(4) {
+    bottom: 100%;
+    left: 0;
+    width: 6px;
+
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #e3e7ea);
+    animation: animate4 1s linear infinite;
+
+    animation-delay: 0.75s;
+}
+
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+    }
 }
 
 .data .name {
