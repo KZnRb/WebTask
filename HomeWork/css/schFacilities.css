@@ -9,15 +9,24 @@ a {
 }
 
 html {
-    background-color: #f7f8fa;
+    /* background-color: #f7f8fa; */
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 /* 标题 */
 h1 {
+    font-family: "黑体";
     text-align: center;
-    height: 100px;
-    line-height: 100px;
-    letter-spacing: 20px;
+    font-size: 36px;
+    margin-top: 40px;
+    letter-spacing: 14px;
+}
+
+.head {
+    text-align: center;
+    letter-spacing: 2px;
+    color: #949494;
+    margin: 2px 0 28px -14px;
 }
 
 /* 图片展示 */
@@ -60,11 +69,13 @@ h1 {
 .return {
     position: absolute;
     top: 10px;
-    left: 20px;
-    font-size: 30px;
-    transition: all 0.5s;
+    left: 24px;
 }
 
-.return:hover {
-    font-size: 34px;
+.return img {
+    width: 100px;
+}
+
+.return img:hover {
+    width: 110px;
 }
