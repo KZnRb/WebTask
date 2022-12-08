@@ -60,9 +60,12 @@ p {
     margin: 20px 60px;
 }
 
-.contain ul li:last-child:hover h3,
-p {
-    margin: 0 20px;
+.contain ul li:last-child:hover p {
+    margin: 0 20px 0 20px;
+}
+
+.contain ul li:last-child:hover h3 {
+    margin: 10px 0 0 60px;
 }
 
 .contain li .title {
