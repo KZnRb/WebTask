@@ -27,6 +27,7 @@ form {
   padding: 40px;
   border-radius: 40px;
   transition: all 0.5s;
+  background-image: linear-gradient(-20deg, rgb(233, 222, 250, 0.4) 0%, rgb(251, 252, 219, 0.4) 100%);
 }
 
 form:hover {
