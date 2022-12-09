@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     border: 0;
+    /* color: #f7f8fa; */
+    color: #f0f2f4;
+
 }
 
 @font-face {
@@ -9,8 +12,16 @@
     src: url(../font/SOURCECODEPRO-BOLD.TTF);
 }
 
-body {
-    background-color: #f7f8fa;
+html {
+    /* background-color: #f7f8fa; */
+    background-color: black;
+    background-image:
+        radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px),
+        radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px),
+        radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px),
+        radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 a {
@@ -62,7 +73,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 6px;
+    height: 4px;
     background: linear-gradient(90deg, transparent, #e3e7ea);
     animation: animate1 1s linear infinite;
 }
@@ -70,7 +81,7 @@ a {
 .head span:nth-child(2) {
     top: -100%;
     right: 0;
-    width: 6px;
+    width: 4px;
     height: 100%;
     background: linear-gradient(180deg, transparent, #e3e7ea);
     animation: animate2 1s linear infinite;
@@ -81,7 +92,7 @@ a {
     bottom: 0;
     right: 0;
     width: 100%;
-    height: 6px;
+    height: 4px;
     background: linear-gradient(270deg, transparent, #e3e7ea);
     animation: animate3 1s linear infinite;
 
@@ -91,7 +102,7 @@ a {
 .head span:nth-child(4) {
     bottom: 100%;
     left: 0;
-    width: 6px;
+    width: 4px;
 
     height: 100%;
     background: linear-gradient(360deg, transparent, #e3e7ea);
@@ -197,7 +208,7 @@ a {
     position: absolute;
     left: 420px;
     top: 100px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, .04), 0px 6px 16px rgba(0, 0, 0, .12);
+    box-shadow: 0px 1px 3px rgba(225, 225, 225), 0px 6px 16px rgba(225, 225, 225);
     border-radius: 10px;
     padding: 40px 50px;
 }
@@ -239,6 +250,14 @@ a {
     background-color: #e3e7ea;
 }
 
+.timetable table .timSub b, tr th, td {
+    color: black;
+}
+
+.timetable .color {
+    color: #f0f2f4;
+}
+
 .timetable th {
     width: 100px;
 }
@@ -259,18 +278,19 @@ a {
     position: absolute;
     right: 50px;
     top: 30px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, .04), 0px 6px 16px rgba(0, 0, 0, .12);
+    box-shadow: 0px 0px 6px white;
     width: 80px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
-    color: #6a727b;
+    color: #f0f2f4;
     font-family: "黑体";
-    background-color: #f7f8fa;
+    background-color: black;
     transition: all 0.5s;
 }
 
 .return:hover {
-    background-color: #e3e7ea;
+    background-color: black;
     color: white;
+    box-shadow: 0px 0px 40px white;
 }
