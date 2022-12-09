@@ -34,31 +34,49 @@ html {
 }
 
 /* 导航栏 */
-.all nav a {
-  text-decoration: none;
-  line-height: 50px;
-  display: inline-block;
-  font-size: 24px;
-  font-family: '隶书';
-  color: #498428;
-  margin: 10px 60px;
-  transition: all 0.5s;
+ul {
+  width: 1044px;
+  margin: 50px auto;
+  list-style: none;
+  transform: translateY(-25px);
 }
 
-/* 导航栏悬停效果 */
-.all nav a:hover {
-  color: #33692b;
-  text-shadow: 1px 1px 2px #498428;
+ul li {
+  float: left;
+  width: 260px;
+  height: 60px;
+  position: relative;
+  transition: transform 2s linear 0s;
+  transform-style: preserve-3d;
+  margin-left: 1px;
 }
 
-/* 未访问和访问后 */
-.all nav a:link, .all nav a:visited {
-  text-decoration: none;
-}
-
-/* 鼠标点击不动时 */
-.all nav a:active {
+ul li a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 60px;
   color: white;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none;
+}
+
+.aa {
+  background-color: rgb(73, 132, 40, 0.4);
+  transform: translateZ(30px);
+}
+
+.bb {
+  background-color: rgb(234, 239, 157, 0.4);
+  transform: rotateX(-90deg) translateZ(30px);
+}
+
+li:hover {
+  transform: rotateX(90deg);
 }
 
 
@@ -69,6 +87,7 @@ dl {
 
 /* 设置图片效果 */
 img {
+  margin-top: 20px;
   width: 400px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
