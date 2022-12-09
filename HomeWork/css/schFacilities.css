@@ -68,14 +68,15 @@ h1 {
 /* 返回 */
 .return {
     position: absolute;
-    top: 10px;
-    left: 24px;
+    top: 36px;
+    left: 48px;
 }
 
 .return img {
-    width: 100px;
+    width: 80px;
+    transition: all 0.5s;
 }
 
 .return img:hover {
-    width: 110px;
+    transform: scale(1.1);
 }
