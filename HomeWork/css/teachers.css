@@ -4,6 +4,11 @@
     border: 0;
 }
 
+html {
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
 /* 标题 */
 h1 {
     text-align: center;
@@ -24,7 +29,7 @@ h4 {
     height: 560px;
     margin: 0 0 60px 40px;
     float: left;
-    border: 10px solid #fff;
+    border: 10px solid lightgrey;
     overflow: hidden;
     position: relative;
     text-align: center;
