@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+      }
+
+      a {
+        color: #949494;
+        text-decoration: none;
+      }
+
+      html {
+        background-color: black;
+        background-image: radial-gradient(
+            white,
+            rgba(255, 255, 255, 0.2) 2px,
+            transparent 40px
+          ),
+          radial-gradient(
+            white,
+            rgba(255, 255, 255, 0.15) 1px,
+            transparent 30px
+          ),
+          radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+          radial-gradient(
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.1) 2px,
+            transparent 30px
+          );
+        background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+        background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+      }
+
+      /* 标题 */
+      h1 {
+        font-family: "黑体";
+        color: white;
+        text-align: center;
+        font-size: 36px;
+        margin-top: 100px;
+        letter-spacing: 16px;
+      }
+
+      h4 {
+        text-align: center;
+        letter-spacing: 6px;
+        color: #949494;
+        margin: 2px 0 28px -10px;
+      }
+
+      /* 轮播图 */
+      section {
+        width: 500px;
+        height: 300px;
+        margin: 100px auto;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 20s ease 0s;
+        /* border: 1px solid red; */
+        /* background: url(../class_2/img/1.jpg) no-repeat; */
+      }
+      section div {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      #div1 {
+        background: url(../img/fac1.jpg) no-repeat center center;
+        background-size: 100% 100%;
+        transform: translateZ(500px);
+      }
+      #div2 {
+        background: url(../img/fac2.jpg) no-repeat center center;
+        background-size: 100% 100%;
+        transform: rotateY(60deg) translateZ(500px);
+      }
+      #div3 {
+        background: url(../img/fac3.jpg) no-repeat center center;
+        background-size: 100% 100%;
+        transform: rotateY(120deg) translateZ(500px);
+      }
+      #div4 {
+        background: url(../img/fac4.jpg) no-repeat center center;
+        background-size: 100% 100%;
+        transform: rotateY(180deg) translateZ(500px);
+      }
+      #div5 {
+        background: url(../img/fac5.jpg) no-repeat center center;
+        background-size: 100% 100%;
+        transform: rotateY(240deg) translateZ(500px);
+      }
+      #div6 {
+        background: url(../img/fac6.jpg) no-repeat center center;
+        background-size: 100% 100%;
+        transform: rotateY(300deg) translateZ(500px);
+      }
+      section:hover {
+        transform: rotateY(360deg);
+      }
+
+      /* 返回 */
+      .return {
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        font-size: 50px;
+      }
+
+      .return a:hover {
+        text-shadow: 1px 1px 6px white;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 标题 -->
+    <h1>学校照片</h1>
+    <h4>School photos</h4>
+
+    <!-- 轮播图 -->
+    <section>
+      <div id="div1"></div>
+      <div id="div2"></div>
+      <div id="div3"></div>
+      <div id="div4"></div>
+      <div id="div5"></div>
+      <div id="div6"></div>
+    </section>
+
+    <!-- 返回 -->
+    <div class="return">
+      <a href="schHomepage.html"> ← </a>
+    </div>
+  </body>
+</html>
