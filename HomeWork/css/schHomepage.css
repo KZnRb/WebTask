@@ -322,7 +322,8 @@ p a:hover {
   transition: all 0.5s;
 }
 
-footer {
+footer a {
+  display: block;
   height: 60px;
   background-color: #5b0000;
   line-height: 60px;
@@ -330,6 +331,11 @@ footer {
   font-size: 10px;
   color: #feeeef;
   margin-top: 100px;
+}
+
+footer a:hover {
+  color: white;
+  letter-spacing: 1px;
 }
 
 /* 标题目标跳转 */
